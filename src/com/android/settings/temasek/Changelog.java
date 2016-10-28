@@ -82,7 +82,7 @@ public class Changelog extends Fragment {
         m = p2.matcher(data);
         while (m.find()){
           sb.setSpan(new StyleSpan(Typeface.BOLD),m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
-          sb.setSpan(new ForegroundColorSpan(Color.rgb(33,39,43)),m.start(1),m.end(1),Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+          sb.setSpan(new ForegroundColorSpan(Color.rgb(95,115,125)),m.start(1),m.end(1),Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         }
         m = p3.matcher(data);
         while (m.find()){
